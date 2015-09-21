@@ -1,0 +1,27 @@
+#movie {
+  width: 75%;
+  float: left;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+#word {
+  width: 25%;
+  float: left;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+#movie:focus, #word:focus {
+  box-shadow: none;
+}
+
+.element {
+  height: 50px;
+}
+
+.inputs {
+  margin-top: 25%;
+}
