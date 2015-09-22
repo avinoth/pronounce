@@ -1,17 +1,19 @@
+body {
+  background-color: #FFDF00;
+  color: #000;
+}
+
 #movie {
-  width: 75%;
-  float: left;
-  border-top: none;
-  border-left: none;
-  border-right: none;
+  width: 60%;
 }
 
 #word {
   width: 25%;
+}
+
+#buton {
+  width: 15%;
   float: left;
-  border-top: none;
-  border-left: none;
-  border-right: none;
 }
 
 #movie:focus, #word:focus {
@@ -20,8 +22,14 @@
 
 .element {
   height: 50px;
+  float: left;
+  border: none;
 }
 
 .inputs {
-  margin-top: 25%;
+  margin-top: 15%;
+}
+
+.headtext {
+  padding: 20px;
 }
