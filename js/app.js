@@ -1,4 +1,13 @@
 var Forms = React.createClass({
+  getInitialState: function() {
+    return {
+      movie: '',
+      runtime: '',
+      word: '',
+      wordcount: '',
+      perMinueAverage: ''
+    };
+  },
   render: function() {
     return(
       <div className="container">
